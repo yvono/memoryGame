@@ -1,0 +1,45 @@
+h1, h3{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 0.1em;
+    text-align: center;
+}
+h1{
+    text-transform: capitalize;
+    background-color: aqua;
+    color: rgba(202, 27, 27, 0.904);
+    margin: 0;
+}
+body{
+    background-color: rgb(245, 243, 241);
+}
+h1{
+    position: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    position:absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#grid{
+    width: 280px;
+    border: 1px solid black;
+    box-shadow: 0px 2px 12px 5px rgba(20, 20, 20, 0.274);
+    
+
+}
+.carre{
+    height: 60px;
+    width: 60px;
+    display: inline-block;
+    margin: 5px;
+    background-color: black;
+    cursor:pointer;
+
+}
+span{
+    color: rgb(241, 62, 62) ;
+}
